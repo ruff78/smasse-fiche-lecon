@@ -1,0 +1,68 @@
+# Core Django
+Django==4.2.5
+djangorestframework==3.14.0
+django-cors-headers==4.3.0
+django-filter==23.3
+django-environ==0.10.0
+
+# Database
+psycopg2-binary==2.9.9
+psycopg[binary]==3.14.0
+
+# Caching & Sessions
+redis==5.0.0
+django-redis==5.3.0
+
+# Authentication & Security
+djangorestframework-simplejwt==5.3.0
+python-decouple==3.8
+cryptography==41.0.4
+django-cors-headers==4.3.0
+
+# Export/Document Generation
+python-docx==0.8.11
+reportlab==4.0.7
+weasyprint==59.3
+PyPDF2==3.0.1
+openpyxl==3.10.10
+
+# Task Queue
+celery==5.3.4
+django-celery-beat==2.5.0
+django-celery-results==2.5.1
+
+# API Documentation
+drf-spectacular==0.26.5
+drf-spectacular[sidecar]==0.26.5
+
+# Data Validation
+marshmallow==3.20.1
+django-rest-framework-dataclasses==1.1.0
+
+# Testing
+pytest==7.4.2
+pytest-django==4.5.2
+pytest-cov==4.1.0
+factory-boy==3.3.0
+faker==20.0.0
+
+# Code Quality
+black==23.11.0
+flake8==6.1.0
+isort==5.12.0
+pylint==3.0.2
+
+# Monitoring & Logging
+sentry-sdk==1.38.0
+python-json-logger==2.0.7
+
+# Utilities
+requests==2.31.0
+pillow==10.1.0
+openpyxl==3.10.10
+pandas==2.1.2
+numpy==1.26.2
+
+# Development
+django-debug-toolbar==4.2.0
+django-extensions==3.2.3
